@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Testik</string>
     <string name="pozdrav">"Ahoj fšici!</string>
+    <string name="prihlaseni">Přihlášení</string>
+    <string name="jmeno">Jméno</string>
+    <string name="ok">Budiž</string>
+    <string name="heslo">Zadejte heslo</string>
 </resources>

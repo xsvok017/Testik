@@ -7,21 +7,61 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/twDatum"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/pozdrav"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/twDatum"
-        android:layout_width="0dp"
+        android:id="@+id/twPrihlaseni"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="168dp"
+        android:text="@string/prihlaseni"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtJmeno"
+        android:layout_width="286dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/jmeno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twPrihlaseni" />
+
+    <EditText
+        android:id="@+id/txtHeslo"
+        android:layout_width="284dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/heslo"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJmeno" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="40sp"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="104dp" />
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/ok"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHeslo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
