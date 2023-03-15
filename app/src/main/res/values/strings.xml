@@ -5,6 +5,4 @@
     <string name="jmeno">Jméno</string>
     <string name="ok">Budiž</string>
     <string name="heslo">Zadejte heslo</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
